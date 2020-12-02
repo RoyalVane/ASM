@@ -1,6 +1,6 @@
 # pytorch-RAIN
 
-This is an official pytorch implementation of the paper, Adversarial Style Mining for One-Shot Unsupervised Domain Adaptation. [Yawei Luo+, NeurIPS2020].
+This is an official pytorch implementation RAIN, which is a key module of our NeurIPS2020 paper [Adversarial Style Mining for One-Shot Unsupervised Domain Adaptation](https://proceedings.neurips.cc/paper/2020/hash/ed265bc903a5a097f61d3ec064d96d2e-Abstract.html).
 
 
 ## Usage
@@ -21,6 +21,7 @@ CUDA_VISIBLE_DEVICES=<gpu_id> python test.py --content input/content/GTA5.png --
 ```
 
 This would generate one randomly stylized image near the anchor style.
+[![Sampling](https://github.com/RoyalVane/ASM/blob/main/RAIN/RAIN_anchored_sampling.jpg)]
 
 ### Train
 Use `--content_dir` and `--style_dir` to provide the respective directory to the content and style images.
