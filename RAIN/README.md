@@ -31,10 +31,13 @@ CUDA_VISIBLE_DEVICES=<gpu_id> python train.py --content_dir datasets/GTA5/images
 
 ### Related Works
 [CLAN](https://github.com/RoyalVane/CLAN)
+
 One-shot UDA is a realistic but more challenging setting than UDA.
 
 [Copy and Paste GAN](https://openaccess.thecvf.com/content_CVPR_2020/papers/Zhang_Copy_and_Paste_GAN_Face_Hallucination_From_Shaded_Thumbnails_CVPR_2020_paper.pdf)
+
 RAIN is also employed as a strong data augmentation module in our CVPR2020 oral paper "Copy and Paste GAN: Face Hallucination from Shaded Thumbnails".
 
 [AdaIN](https://github.com/xunhuang1995/AdaIN-style)
+
 This code is heavily borrowed from AdaIN.
