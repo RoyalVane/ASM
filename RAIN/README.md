@@ -21,7 +21,7 @@ CUDA_VISIBLE_DEVICES=<gpu_id> python test.py --content input/content/GTA5.png --
 ```
 
 This would generate one randomly stylized image near the anchor style.
-[Sampling](https://github.com/RoyalVane/ASM/blob/main/RAIN/RAIN_anchored_sampling.jpg)
+![](https://github.com/RoyalVane/ASM/blob/main/RAIN/RAIN_anchored_sampling.jpg)
 
 ### Train
 Use `--content_dir` and `--style_dir` to provide the respective directory to the content and style images.
