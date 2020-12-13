@@ -3,7 +3,7 @@ PyTorch implementation for our NeurIPS 2020 paper: [Adversarial Style Mining for
 
 In this paper, we aim at the problem named One-Shot Unsupervised Domain Adaptation. Unlike traditional Unsupervised Domain Adaptation, it assumes that only one unlabeled target sample can be available when learning to adapt.
 
-![](https://github.com/RoyalVane/ASM/tree/main/ASM/visualization/MainFrame.jpg)
+![](https://github.com/RoyalVane/ASM/blob/main/ASM/MainFrame.jpg)
 
 ## Usage
 
@@ -52,8 +52,7 @@ The first model is consist with our reported IoU result in the paper.
 The second model is trained recently, whose performance is slightly higher than the paper.
 [IoU = 44.78:](https://drive.google.com/file/d/1C1fbhMfZW6aIah5L58yw9mQ7EpuriNt5/view?usp=sharing)
 
-![](https://github.com/RoyalVane/ASM/tree/main/ASM/visualization/Vis.jpg)
-
+![](https://github.com/RoyalVane/ASM/blob/main/ASM/Visualization.jpg)
 
 
 ## Citation
