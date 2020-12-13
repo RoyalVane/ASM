@@ -47,16 +47,16 @@ python ASM_IOU.py
 We also provide our trained models for direct evaluation. These models are trained using 32G V100.
 
 - The first model is consist with our reported IoU result in the paper.
-[IoU = 44.53:](https://drive.google.com/file/d/1SA8jxfdLt15AzE-nOM24dccf47fMjil6/view?usp=sharing) 
+[mIoU = 44.53:](https://drive.google.com/file/d/1SA8jxfdLt15AzE-nOM24dccf47fMjil6/view?usp=sharing) 
 
 - The second model is trained recently, whose performance is slightly higher than the paper.
-[IoU = 44.78:](https://drive.google.com/file/d/1C1fbhMfZW6aIah5L58yw9mQ7EpuriNt5/view?usp=sharing)
+[mIoU = 44.78:](https://drive.google.com/file/d/1C1fbhMfZW6aIah5L58yw9mQ7EpuriNt5/view?usp=sharing)
 
 ![](https://github.com/RoyalVane/ASM/blob/main/ASM/Visualization.jpg)
 
 
 ## Citation
-- If you use this code in your research please consider citing
+- If you find this code useful, please consider citing
 ```
 @inproceedings{Luo2020ASM,
 title={Adversarial Style Mining for One-Shot Unsupervised Domain Adaptation},
