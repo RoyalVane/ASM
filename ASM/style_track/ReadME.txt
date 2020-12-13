@@ -1,0 +1,1 @@
+The generated stylized images would be saved here.
