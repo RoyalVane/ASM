@@ -1,7 +1,8 @@
 # ASM
 PyTorch implementation for our NeurIPS 2020 paper: [Adversarial Style Mining for One-Shot Unsupervised Domain Adaptation](https://proceedings.neurips.cc/paper/2020/hash/ed265bc903a5a097f61d3ec064d96d2e-Abstract.html).
 
-In this paper, We aim at the problem named One-Shot Unsupervised Domain Adaptation. Unlike traditional Unsupervised Domain Adaptation, it assumes that only one unlabeled target sample can be available when learning to adapt.
+In this paper, we aim at the problem named One-Shot Unsupervised Domain Adaptation. Unlike traditional Unsupervised Domain Adaptation, it assumes that only one unlabeled target sample can be available when learning to adapt.
+
 ![](https://github.com/RoyalVane/ASM/tree/main/ASM/Visualization/MainFrame.jpg)
 
 ## Usage
@@ -51,6 +52,17 @@ The first model is consist with our reported IoU result in the paper.
 The second model is trained recently, whose performance is slightly higher than the paper.
 [IoU = 44.78:](https://drive.google.com/file/d/1C1fbhMfZW6aIah5L58yw9mQ7EpuriNt5/view?usp=sharing)
 
+
+## Citation
+If you use this code in your research please consider citing
+```
+@inproceedings{Luo2020ASM,
+title={Adversarial Style Mining for One-Shot Unsupervised Domain Adaptation},
+  author={Luo, Yawei and Liu, Ping and Guan, Tao and Yu, Junqing and Yang, Yi},
+  booktitle={Advances in Neural Information Processing Systems},
+year={2020}
+}
+```
 
 ## Related Works
 [CLAN](https://github.com/RoyalVane/CLAN): One-shot UDA is a realistic but more challenging setting than UDA, which we tried to solve in our CVPR2019 oral paper "Taking A Closer Look at Domain Shift: Category-level Adversaries for Semantics Consistent Domain Adaptation".
