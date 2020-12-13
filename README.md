@@ -4,6 +4,11 @@ PyTorch implementation for our NeurIPS 2020 paper: [Adversarial Style Mining for
  
 ## Usage
 
+### Prerequisites
+- Python 3.6
+- GPU Memory >= 32G
+- Pytorch >= 1.5.0
+
 ### Download ImageNet-pretained DeepLab:
 [DeepLab_resnet_pretrained_init-f81d91e8.pth]( https://drive.google.com/open?id=13kjtX481LdtgJcpqD3oROabZyhGLSBm2) and put it under `pretrained/`.
 
@@ -36,12 +41,12 @@ python ASM_IOU.py
 ```
 
 ### Our trained Model
-We also provide the our trained models for direct evaluation.
+We also provide the our trained models for direct evaluation. These models are trained using 32G V100.
 
 The first model is consist with our reported IoU result in the paper.
 [IoU = 44.53:](https://drive.google.com/file/d/1SA8jxfdLt15AzE-nOM24dccf47fMjil6/view?usp=sharing) 
 
-The second model is recently trained, which is slightly higher the the paper.
+The second model is trained recently, whose performance is slightly higher than the paper.
 [IoU = 44.78:](https://drive.google.com/file/d/1C1fbhMfZW6aIah5L58yw9mQ7EpuriNt5/view?usp=sharing)
 
 
