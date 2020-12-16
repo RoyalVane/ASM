@@ -43,8 +43,8 @@ CUDA_VISIBLE_DEVICES==<gpu_id> python ASM_evaluate.py
 python ASM_IOU.py
 ```
 
-### Our trained Model
-We also provide our trained models for direct evaluation. These models are trained using 32G V100.
+### Our Pretrained Model
+We also provide our Pretrained ASM models for direct evaluation. These models are trained using 32G V100.
 
 - The first model is consist with our reported IoU result in the paper.
 [mIoU = 44.53:](https://drive.google.com/file/d/1SA8jxfdLt15AzE-nOM24dccf47fMjil6/view?usp=sharing) 
