@@ -1,7 +1,7 @@
 # ASM
 
 ## Introduction
-This is an official PyTorch implementation for our NeurIPS 2020 paper: [Adversarial Style Mining for One-Shot Unsupervised Domain Adaptation](https://proceedings.neurips.cc/paper/2020/hash/ed265bc903a5a097f61d3ec064d96d2e-Abstract.html). In this paper, we aim at the problem named One-Shot Unsupervised Domain Adaptation. Unlike traditional Unsupervised Domain Adaptation, it assumes that only one unlabeled target sample can be available when learning to adapt.
+This is an official implementation for our NeurIPS 2020 paper: [Adversarial Style Mining for One-Shot Unsupervised Domain Adaptation](https://proceedings.neurips.cc/paper/2020/hash/ed265bc903a5a097f61d3ec064d96d2e-Abstract.html). In this paper, we aim at the problem named One-Shot Unsupervised Domain Adaptation. Unlike traditional Unsupervised Domain Adaptation, it assumes that only one unlabeled target sample can be available when learning to adapt.
 
 ![](https://github.com/RoyalVane/ASM/blob/main/ASM/MainFrame.jpg)
 
@@ -10,7 +10,6 @@ This is an official PyTorch implementation for our NeurIPS 2020 paper: [Adversar
 ### Prerequisites
 - Python 3.6
 - GPU Memory >= 32G
-- Pytorch >= 1.5.0
 
 ### Download ImageNet-pretained DeepLab:
 - Download [DeepLab_resnet_pretrained_init-f81d91e8.pth]( https://drive.google.com/open?id=13kjtX481LdtgJcpqD3oROabZyhGLSBm2) and put it under `pretrained/`.
