@@ -1,6 +1,6 @@
-# pytorch-RAIN
+# RAIN
 
-This is an official pytorch implementation RAIN, which is a key module of our NeurIPS2020 paper [Adversarial Style Mining for One-Shot Unsupervised Domain Adaptation](https://proceedings.neurips.cc/paper/2020/hash/ed265bc903a5a097f61d3ec064d96d2e-Abstract.html).
+This is an official implementation RAIN, which is a key module of our NeurIPS2020 paper [Adversarial Style Mining for One-Shot Unsupervised Domain Adaptation](https://proceedings.neurips.cc/paper/2020/hash/ed265bc903a5a097f61d3ec064d96d2e-Abstract.html).
 
 
 ## Usage
