@@ -5,6 +5,10 @@ This is an official implementation for our NeurIPS 2020 paper: [Adversarial Styl
 
 ![](https://github.com/RoyalVane/ASM/blob/main/ASM/MainFrame.jpg)
 
+## Presentation Video
+[![Watch the video](https://github.com/RoyalVane/ASM/blob/main/ASM/Talk.png)](https://papertalk.org/papertalks/8975)
+
+
 ## Usage
 
 ### Prerequisites
